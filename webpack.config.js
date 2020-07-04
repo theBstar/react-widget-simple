@@ -1,5 +1,4 @@
 const path = require('path');
-const webpack = require('webpack');
 var copyWebpackPlugin = require('copy-webpack-plugin');
 const bundleOutputDir = './dist';
 
@@ -14,8 +13,7 @@ module.exports = (env) => {
             path: path.resolve(bundleOutputDir),
         },
         module: {
-            rules: [
-                {
+            rules: [{
                     test: /\.(js|jsx)$/,
                     exclude: /node_modules/,
                     use: ['babel-loader']
