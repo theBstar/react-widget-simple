@@ -1,5 +1,5 @@
 # An Embeddable contact us widget
-  To use inside your project just place following script tag
+  To use in your project just add following script
   ```javascript
   <script src="./widget.js"></script>
   ```
