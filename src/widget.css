@@ -1,0 +1,13 @@
+.__call__me__widget__class_name__ {
+    --rootBackground: rgb(0, 0, 0);
+    --rootColor: white;
+    --primaryBackground: rgba(31, 29, 29, 0.8);
+    --primaryColor: rgb(21, 173, 21);
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+}
+
+.__call__me__widget__class_name__ * {
+    box-sizing: border-box;
+}
